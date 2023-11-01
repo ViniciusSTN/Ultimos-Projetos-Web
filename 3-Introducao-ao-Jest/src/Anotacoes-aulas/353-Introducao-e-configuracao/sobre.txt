@@ -1,0 +1,41 @@
+npm i jest ts-jest @types/jest -D
+
+------------------------------
+CHECAR VULNERABILIDADE
+npm audit
+npm audit fix
+------------------------------
+
+npx jest --init
+
+Do you want Jest to add coverage reports?
+n
+
+Which provider should be used to instrument code for coverage?
+v8
+
+Automatically clear mock calls, instances, contexts and results before every test?
+n
+
+------------------------------
+
+cria >> jest.config.ts << automaticamente
+APAGAR ESSE ARQUIVO
+
+APAGAR SCRIPT QUE FOI CRIADO
+
+------------------------------
+
+npx ts-jest config:init
+
+cria arquivo >> jest.config.js << automaticamente
+
+------------------------------
+
+npx jest -> procura todos os arquivos jest e executa
+
+------------------------------
+
+São iguais:
+// it()
+// test()

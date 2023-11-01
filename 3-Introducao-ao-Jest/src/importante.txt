@@ -1,0 +1,21 @@
+.toBe() -> é algo
+.not.toBe()
+.toEqual() -> geralmente para objetos
+.not.toBeNull()
+.not.toBeFalsy()
+.toBeTruthy()
+.toBeGreaterThan(9)
+.toBeLessThan()
+.toBeCloseTo() -> aproximado (recomendável para testar com ponto flutuante)
+.toBeGreaterThanOrEqual()
+.toBeLessThanOrEqual()
+.toHaveProperty('toString')
+.toHaveProperty('age', 30)
+.toHaveBeenCalledTimes(1)
+.toHaveBeenCalledWith('texto')
+
+jest.spyOn() -> 'espiar'
+
+.mockReturnValueOnce()
+
+npx jest --clearCache

@@ -1,0 +1,6 @@
+CHECAR UPDATES
+npx npm-check -u
+
+npm i jest ts-jest @types/jest -D
+
+npx jest -> procura todos os arquivos jest e executa
